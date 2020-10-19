@@ -6,15 +6,10 @@ class DiamondScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        //backgroundColor: Colors.blueGrey,
         body: Container(
           decoration: BoxDecoration(
             gradient: LinearGradient(
-              colors: [
-                Colors.blueGrey[700],
-                Colors.blueGrey[600],
-                Colors.blueGrey[500]
-              ],
+              colors: [Colors.blueGrey[700], Colors.blueGrey[600], Colors.blueGrey[500]],
             ),
           ),
           child: Center(
@@ -25,11 +20,7 @@ class DiamondScreen extends StatelessWidget {
         ),
         appBar: GradientAppBar(
           gradient: LinearGradient(
-            colors: [
-              Colors.blueGrey[900],
-              Colors.blueGrey[800],
-              Colors.blueGrey[700]
-            ],
+            colors: [Colors.blueGrey[900], Colors.blueGrey[800], Colors.blueGrey[700]],
           ),
           title: Text('I Am Rich'),
         ),
